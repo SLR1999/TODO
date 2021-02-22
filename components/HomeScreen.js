@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, Button, View, Text, Image } from "react-native";
-import Main from "./Main";
+import NoteFunctionality from "./NoteFunctionality";
 
 export default class Homescreen extends Component {
     static navigationOptions = {
@@ -15,14 +15,7 @@ export default class Homescreen extends Component {
 
     render() {
         return (
-            // <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-            //   <Text>Home Screen</Text>
-            //   <Button
-            //     title="Go to About"
-            //     onPress={() => this.props.navigation.navigate("About")}
-            //   />
-            // </View>
-            <Main />
+            <NoteFunctionality />
         );
     }
     // async _cacheResourcesAsync() {

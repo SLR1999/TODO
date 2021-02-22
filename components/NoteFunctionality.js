@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import Note from "./Note";
 
-export default class Main extends Component {
+export default class NoteFunctionality extends Component {
     constructor(props) {
         super(props);
         this.state = {
